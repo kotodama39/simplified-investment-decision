@@ -10,23 +10,10 @@
 
 生成AIによって作られた指示書(instruction.md)をもとに VS Code の拡張機能 Roo Code を利用して、コーディングをさせています。
 
-![demo](images/generate_code.gif)
+![demo](images/generated_code.gif)
 
 - APIプロバイダー: VS Code LM API
 - copilot - gpt-4
-
-### 一部修正
-
-コーディングされた結果に不備があったため、修正をさせています。
-
-以下の gif は修正しているときの様子（一部）です。
-
-![fix](images/generate_code_fix.gif)
-
-- 変更内容
-   - 過去1年のデータに変更
-   - 銘柄を日経レバに変更
-   - バックテストの手数料を 0 に変更
 
 ### 実行結果
 
